@@ -1,17 +1,50 @@
-/* Custom Global Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  h1, h2 {
     color: #333;
+    background-color: #fff;
   }
-  
+  header {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f44336;
+  }
+  nav a {
+    color: #fff;
+    padding: 1em;
+    text-decoration: none;
+  }
+  nav a:hover {
+    background-color: #d32f2f;
+  }
+  section {
+    padding: 2em;
+    margin: 1em 0;
+  }
   footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+    background-color: #d32f2f;
+    color: #fff;
+  }
+  .webtoons {
+    background-color: #ffe5e5;
+    border-radius: 8px;
+    padding: 1em;
+    margin-top: 1em;
   }
   
+  img {
+      height: 300px; /* Set a fixed height */
+      width: auto; /* Adjust the width automatically to maintain aspect ratio */
+      /* border: 2px solid #d32f2f; */
+      border-radius: 8px;
+      margin: 5px; /* Adds some space between the images */
+  }
