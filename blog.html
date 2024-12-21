@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harini S. - Blog</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blogstyle.css">
 </head>
 <body>
     <header>
         <h1>Harini Solaidurairaj's Blog</h1>
         <!-- <p>Computer Science Student with a passion for Software Development and Game Development</p> -->
     </header>
+
+    <!-- Navigation -->
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About Me</a>
@@ -18,12 +20,58 @@
         <a href="blog.html">Blog</a>
         <a href="contact.html">Contact</a>
     </nav>
-    <section>
-        <h2>Blog</h2>
-        <p>Welcome to my blog! Here, I share my thoughts on software development, game development, and other topics that interest me.</p>
+
+    <!-- Featured Content -->
+    <section class="featured-content">
+        <h2>Featured Posts</h2>
+        <div class="post-grid">
+            <article>
+                <h3><a href="post1.html">Shadow and Bones Series Rewiew</a></h3>
+                <p>My take on the popular series.</p>
+            </article>
+            <article>
+                <h3><a href="post2.html">Yona of the Dawn Review</a></h3>
+                <p>Why I implore you to read Yona of the Dawn.</p>
+            </article>
+        </div>
     </section>
+
+    <!-- Blog Posts -->
+    <section class="blog-posts">
+        <h2>Recent Posts</h2>
+        <article>
+            <h3><a href="post3.html">My First Game Development Project</a></h3>
+            <p>A journey through designing and developing my first game.</p>
+        </article>
+        <article>
+            <h3><a href="post4.html">Debugging Like a Pro</a></h3>
+            <p>Tips and tricks to make debugging a less painful process.</p>
+        </article>
+    </section>
+
+    <!-- Sidebar -->
+    <aside>
+        <h2>Categories</h2>
+        <ul>
+            <li><a href="#software-development">Software Development</a></li>
+            <li><a href="#game-development">Game Development</a></li>
+            <li><a href="#personal-growth">Personal Growth</a></li>
+        </ul>
+
+        <h2>Popular Posts</h2>
+        <ul>
+            <li><a href="popular1.html">5 Coding Best Practices</a></li>
+            <li><a href="popular2.html">Getting Started with Unity</a></li>
+        </ul>
+    </aside>
+
+    <!-- Footer -->
     <footer>
         <p>&copy; 2024 Harini S. All rights reserved.</p>
+        <nav>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="sitemap.html">Sitemap</a>
+        </nav>
     </footer>
 </body>
 </html>

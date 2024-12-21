@@ -1,0 +1,161 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation Bar */
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Featured Content */
+.featured-content {
+    background: #f4f4f4;
+    padding: 20px;
+    border: 2px dashed #4CAF50;
+}
+
+.featured-content .post-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.featured-content article {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
+}
+
+.featured-content article h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.featured-content article h3 a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.featured-content article h3 a:hover {
+    text-decoration: underline;
+}
+
+/* Blog Posts */
+.blog-posts article {
+    margin-bottom: 20px;
+}
+
+.blog-posts article h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.blog-posts article h3 a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.blog-posts article h3 a:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar */
+aside {
+    margin: 20px;
+    padding: 20px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+aside h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+aside ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer nav a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
